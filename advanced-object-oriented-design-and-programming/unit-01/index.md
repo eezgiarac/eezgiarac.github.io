@@ -8,13 +8,13 @@ layout: default
 
 Five exercises cover classes, objects, access control, inheritance, polymorphism, abstraction, encapsulation and constructors/destructors.
 
-1. [Inheritance — Vehicle and Car](https://github.com/eezgiarac/advanced_object_oriented_design_and_programming/blob/main/unit-01/task_1_inheritance.py)
-2. [Polymorphism — Shape, Circle and Rectangle](https://github.com/eezgiarac/advanced_object_oriented_design_and_programming/blob/main/unit-01/task_2_polymorphism.py)
-3. [Encapsulation — BankAccount](https://github.com/eezgiarac/advanced_object_oriented_design_and_programming/blob/main/unit-01/task_3_encapsulation.py)
-4. [Abstraction — Animal, Dog and Cat](https://github.com/eezgiarac/advanced_object_oriented_design_and_programming/blob/main/unit-01/task_4_abstraction.py)
-5. [Constructor and Destructor — Person](https://github.com/eezgiarac/advanced_object_oriented_design_and_programming/blob/main/unit-01/task_5_constructor_destructor.py)
+1. [Inheritance — Vehicle and Car](./task_1_inheritance.py)
+2. [Polymorphism — Shape, Circle and Rectangle](./task_2_polymorphism.py)
+3. [Encapsulation — BankAccount](./task_3_encapsulation.py)
+4. [Abstraction — Animal, Dog and Cat](./task_4_abstraction.py)
+5. [Constructor and Destructor — Person](./task_5_constructor_destructor.py)
 
-**Repository note:** The coursework repository is private. The source links above are accessible only to authorized viewers; the public portfolio needs independently published copies for public review.
+**Publication note:** The five Python exercise files are also published in this public portfolio; the original coursework repository remains private.
 
 ## Reflection
 
