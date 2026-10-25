@@ -19,6 +19,6 @@ MSc e-Portfolio: learning activities and assessment evidence.
 
 ## Final assessment
 
-- [Part A: Python and C programming](Final_Assessment/Part_A_Programming/README.txt)
+- [Final Assessment: Part A and Part B](Final_Assessment/)
 
 Additional project files are being reviewed before publication.
