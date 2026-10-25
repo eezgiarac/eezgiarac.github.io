@@ -19,7 +19,7 @@ The source repository remains private. This public site contains selected copies
 - Unit 7 Word assessment: `unit-07/Security-Risk-Assessment.docx`
 - Final Part B presentation: `Final_Assessment/Part_B_Presentation/AI Enterprise Cybersecurity Part B.pptx`
 - Final Part B transcript: `Final_Assessment/Part_B_Presentation/Part B Presentation Transcript.docx`
-- Final Part A report (Word document; exact filename to confirm)
+- Final Part A report `Part_A_Final_Report.docx` (located in user's newly supplied Final Assessment archive; prepared for upload)
 - Final Part A executable files (`.exe`) are intentionally not required for the public portfolio
 - Final Part A tutor-provided dataset `CPUPI.txt` should only be published if redistribution is permitted
 - Final Part A sorted output dataset should be checked for size and necessity before publication
@@ -30,3 +30,7 @@ The source repository remains private. This public site contains selected copies
 - `Final_Assessment/Part_A_Programming/bubsort.py`
 
 These two transfers were blocked and need manual review/upload. Verify all public links after deployment.
+
+## Final Assessment archive verification (25 October 2026)
+
+The user supplied the final submission archives. The Part A Word report, Part B PowerPoint and Part B transcript have been located and packaged for manual upload, preserving the paths above. The Part B video (`AI Enterprise Cybersecurity Part B.mp4`, approximately 203 MB uncompressed) is not published. The tutor-provided `CPUPI.txt` and full sorted output are also not published. Their omission is intentional pending permission/hosting decisions. The source archives additionally include `bubsort_original.py` and `generate_full_sorted_output.py`; these are not yet on the public website.
