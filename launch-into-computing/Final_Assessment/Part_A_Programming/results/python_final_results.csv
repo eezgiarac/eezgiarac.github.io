@@ -1,0 +1,5 @@
+algorithm,elements,average_time_seconds
+Python Bubble Sort,1000,0.031381460
+Python Timsort,1000,0.000116740
+Python Bubble Sort,1000,0.040196640
+Python Timsort,1000,0.000118700
