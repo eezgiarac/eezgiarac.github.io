@@ -3,61 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="MSc Computing e-Portfolio – academic projects, learning reflections and professional development.">
-  <title>MSc Computing e-Portfolio | Ezgi Araç</title>
+  <meta name="theme-color" content="#090f20">
+  <meta name="description" content="MSc Cyber Security e-Portfolio — academic projects, Python programming, computing foundations and reflective learning.">
+  <title>MSc Cyber Security | Academic e-Portfolio</title>
   <style>
-    :root { color-scheme: light; --ink:#17233c; --muted:#53637a; --accent:#3657a7; --bg:#f5f7fc; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
-    header { background:linear-gradient(125deg,#182b53,#385ba0); color:white; padding:76px 22px 64px; }
-    .wrap { max-width:940px; margin:auto; }
-    .eyebrow { letter-spacing:.14em; text-transform:uppercase; font-size:.8rem; opacity:.82; }
-    h1 { font-size:clamp(2.2rem,6vw,3.8rem); line-height:1.12; margin:12px 0; }
-    header p { max-width:650px; font-size:1.1rem; }
-    main { padding:40px 22px 65px; }
-    h2 { margin:28px 0 15px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:18px; }
-    .card { background:white; border:1px solid #e0e5ef; border-radius:15px; padding:24px; box-shadow:0 5px 22px #1527440b; }
-    .card h3 { margin-top:0; }
-    a { color:var(--accent); }
-    .card a { font-weight:600; }
-    .note { color:var(--muted); }
-    footer { padding:22px; border-top:1px solid #e0e5ef; text-align:center; color:var(--muted); }
+    :root {color-scheme:dark;--bg:#090f20;--panel:#111c31;--line:#293852;--text:#edf5ff;--muted:#aabbd1;--cyan:#66e4df;--purple:#b5a1ff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 85% 45% at 82% 4%,#173e54 0%,transparent 67%),radial-gradient(ellipse 55% 30% at 0% 35%,#24254a 0%,transparent 72%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65}
+    a{color:var(--cyan)}a:focus-visible{outline:3px solid var(--cyan);outline-offset:4px;border-radius:3px}.wrap{width:min(1100px,calc(100% - 44px));margin:auto}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;gap:20px}.brand{font-size:.95rem;font-weight:800;letter-spacing:.03em;color:white;text-decoration:none}.brand span{color:var(--cyan)}.navlinks{display:flex;gap:23px;flex-wrap:wrap}.navlinks a{color:#cbd8e8;text-decoration:none;font-size:.92rem}.navlinks a:hover{color:var(--cyan)}
+    .hero{padding:95px 0 105px;display:grid;grid-template-columns:1.4fr .6fr;align-items:center;gap:50px}.eyebrow{color:var(--cyan);font-size:.77rem;font-weight:800;text-transform:uppercase;letter-spacing:.19em}.hero h1{font-size:clamp(2.8rem,6.3vw,5.3rem);letter-spacing:-.055em;line-height:1.07;margin:20px 0 24px}.hero h1 em{font-style:normal;background:linear-gradient(110deg,var(--cyan),var(--purple));color:transparent;background-clip:text;-webkit-background-clip:text}.lead{font-size:1.13rem;color:var(--muted);max-width:680px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:31px}.btn{display:inline-block;border-radius:11px;padding:12px 20px;font-weight:750;text-decoration:none;border:1px solid var(--line)}.btn.primary{background:var(--cyan);color:#061421;border-color:var(--cyan)}.btn.secondary{color:var(--text);background:#18243a}
+    .visual{min-height:300px;border:1px solid #3a5369;border-radius:24px;background:linear-gradient(145deg,#152f45,#131b36 70%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;box-shadow:0 24px 65px #0006}.visual:before,.visual:after{content:"";position:absolute;border:1px solid #426679;border-radius:50%;width:270px;height:270px}.visual:after{width:190px;height:190px;border-color:#586a8d}.shield{font-size:5.8rem;filter:drop-shadow(0 0 25px #66e4df55);z-index:1}.visual-label{position:absolute;bottom:20px;left:20px;color:#b3d7df;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+    section{padding:36px 0 48px}.section-label{color:var(--cyan);font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.17em}.section-title{font-size:clamp(1.7rem,3.6vw,2.45rem);letter-spacing:-.035em;margin:8px 0 12px}.intro{max-width:780px;color:var(--muted);margin:0 0 28px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{border:1px solid var(--line);background:linear-gradient(150deg,#17253c,#10192d);border-radius:19px;padding:29px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:#5a8494}.card .number{font-size:.78rem;letter-spacing:.13em;color:var(--cyan);font-weight:800}.card h3{font-size:1.34rem;line-height:1.35;margin:17px 0 12px}.card p{color:var(--muted);margin:0 0 24px}.card a{font-weight:750;text-underline-offset:4px}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.chip{border:1px solid #34506b;border-radius:99px;padding:7px 13px;color:#d0dff1;background:#12243a;font-size:.87rem}.about{border:1px solid var(--line);border-radius:20px;background:#101a2e;padding:30px}.about p{color:var(--muted);margin:0}.footer{border-top:1px solid var(--line);margin-top:48px;padding:26px 0 38px;color:var(--muted);font-size:.88rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:62px 0}.visual{min-height:210px}.grid{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:16px}.hero h1{font-size:clamp(2.6rem,11vw,4rem)}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <div class="eyebrow">Academic e-Portfolio</div>
-      <h1>Learning, building, reflecting.</h1>
-      <p>Welcome to my MSc Computing e-Portfolio. This space documents my academic projects, technical development and reflections throughout the programme.</p>
-    </div>
-  </header>
-  <main class="wrap">
-    <section aria-labelledby="about">
-      <h2 id="about">About this portfolio</h2>
-      <p>I use this portfolio to record my learning journey, demonstrate practical computing skills and reflect on how I apply new concepts. Module artefacts and reflections will be added as coursework progresses.</p>
-    </section>
-    <section aria-labelledby="modules">
-      <h2 id="modules">MSc modules</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Launch into Computing</h3>
-          <p>Foundations of computing, algorithms, software development and data analysis.</p>
-          <p class="note"><a href="/launch-into-computing/">Explore Launch into Computing units and final assessment</a></p>
-        </article>
-        <article class="card">
-          <h3>Advanced Object-Oriented Design and Programming</h3>
-          <p>Python, inheritance, polymorphism, encapsulation, abstraction and reflective practice.</p>
-          <p class="note"><a href="/advanced-object-oriented-design-and-programming/unit-01/">View Unit 1 Python exercises and portfolio evidence</a></p>
-        </article>
+  <div class="wrap">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">E-PORTFOLIO<span> / CYBER SECURITY</span></a>
+      <div class="navlinks"><a href="#about">About</a><a href="#modules">Modules</a><a href="#skills">Skills</a><a href="https://github.com/eezgiarac">GitHub</a></div>
+    </nav>
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Academic portfolio · Learning in progress</div>
+        <h1>MSc <em>Cyber Security</em><br>e-Portfolio.</h1>
+        <p class="lead">Exploring secure systems, programming and practical problem-solving through academic projects, hands-on exercises and reflective learning.</p>
+        <div class="actions"><a class="btn primary" href="#modules">Explore my modules</a><a class="btn secondary" href="https://github.com/eezgiarac">View GitHub profile</a></div>
       </div>
-    </section>
-    <section aria-labelledby="development">
-      <h2 id="development">Professional development</h2>
-      <p>Learning outcomes, reflective entries, a professional skills matrix and an action plan will be included as the portfolio develops.</p>
-    </section>
-  </main>
-  <footer>MSc Computing e-Portfolio</footer>
+      <div class="visual" aria-hidden="true"><span class="shield">⬡</span><span class="visual-label">Learn · Build · Reflect</span></div>
+    </header>
+    <main>
+      <section id="about" aria-labelledby="about-heading">
+        <div class="section-label">01 / Introduction</div>
+        <h2 class="section-title" id="about-heading">Learning by building.</h2>
+        <p class="intro">Welcome to my MSc Cyber Security e-Portfolio. I use this space to document coursework, explain the thinking behind my code, reflect on what I learn and connect computing concepts to practical technical challenges.</p>
+      </section>
+      <section id="modules" aria-labelledby="modules-heading">
+        <div class="section-label">02 / Academic work</div>
+        <h2 class="section-title" id="modules-heading">Explore the modules</h2>
+        <p class="intro">Coursework and supporting evidence are organised by module, with links to exercises, reflections and assessments.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="number">MODULE 01 · COMPUTING FOUNDATIONS</span>
+            <h3>Launch into Computing</h3>
+            <p>Foundations of computing, algorithms, software development, data analysis and reflective practice.</p>
+            <a href="/launch-into-computing/">Explore module and assessments →</a>
+          </article>
+          <article class="card">
+            <span class="number">MODULE 02 · PYTHON &amp; DESIGN</span>
+            <h3>Advanced Object-Oriented Design and Programming</h3>
+            <p>Python classes and objects, inheritance, polymorphism, encapsulation and abstraction. Unit 1 includes five executed exercises and a learning reflection.</p>
+            <a href="/advanced-object-oriented-design-and-programming/unit-01/">Explore Unit 1 evidence →</a>
+          </article>
+        </div>
+      </section>
+      <section id="skills" aria-labelledby="skills-heading">
+        <div class="section-label">03 / Skills in development</div>
+        <h2 class="section-title" id="skills-heading">Tools &amp; concepts</h2>
+        <p class="intro">A growing set of technical skills developed through coursework and hands-on practice.</p>
+        <div class="chips" aria-label="Skills"><span class="chip">Python</span><span class="chip">Object-Oriented Programming</span><span class="chip">Git &amp; GitHub</span><span class="chip">IntelliJ IDEA</span><span class="chip">Technical Documentation</span><span class="chip">Computing Fundamentals</span><span class="chip">Cyber Security Studies</span></div>
+      </section>
+      <section aria-labelledby="development-heading">
+        <div class="section-label">04 / Professional development</div>
+        <h2 class="section-title" id="development-heading">From theory to practice</h2>
+        <div class="about"><p>My goal is to strengthen my ability to analyse technical problems, write understandable code and apply secure, reliable design principles to real-world systems. This portfolio will evolve as I complete further modules and projects.</p></div>
+      </section>
+    </main>
+    <footer class="footer"><span>MSc Cyber Security · Academic e-Portfolio</span><span>Built with HTML, CSS &amp; GitHub Pages</span></footer>
+  </div>
 </body>
 </html>
