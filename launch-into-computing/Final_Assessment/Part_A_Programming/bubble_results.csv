@@ -1,0 +1,6 @@
+algorithm,elements,average_time
+Bubble Sort,2000,0.13329763999208807
+Timsort,2000,0.0002534399973228574
+algorithm,elements,average_time
+Bubble Sort,1000,0.03358897999860346
+Timsort,1000,0.00011170001234859229
