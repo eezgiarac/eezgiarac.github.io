@@ -1,0 +1,4 @@
+algorithm,elements,average_time_seconds
+C Bubble Sort,1000,0.001000000
+C Bubble Sort,2000,0.004000000
+C Bubble Sort,5000,0.027200000C Bubble Sort,10000,0.107400000
