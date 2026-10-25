@@ -1,0 +1,5 @@
+algorithm,elements,average_time_seconds
+Python Timsort,100000,0.021419220
+Python Timsort,200000,0.046201040
+Python Timsort,500000,0.139731540
+Python Timsort,800000,0.233726020
