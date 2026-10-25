@@ -1,0 +1,6 @@
+
+algorithm,elements,time_seconds
+Bubble Sort,100,0.000249
+Timsort,100,0.000015
+Bubble Sort,1000,0.034040
+Timsort,1000,0.000119
